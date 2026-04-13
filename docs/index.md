@@ -13,6 +13,23 @@ You can install the package using pip:
 pip install spectranorm --upgrade
 ```
 
+Installation typically takes less than 1 minute on a standard laptop with an internet connection.
+
+## Requirements
+
+SpectraNorm is implemented in Python and depends on several standard scientific Python libraries, including:
+
+- numpy
+- scipy
+- pandas
+- nibabel
+- joblib
+- pymc
+
+All dependencies are automatically installed via pip.
+
+While SpectraNorm should work in any Python 3.10+ environment, it has been specifically tested on a conda environment on a Linux machine running Python 3.12.
+
 ## Getting Started
 
 Check out the [tutorials](tutorials/index.md) to get started with using SpectraNorm.
